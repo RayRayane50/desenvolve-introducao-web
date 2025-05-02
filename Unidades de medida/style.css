@@ -1,0 +1,19 @@
+html { font-size: 20px; } 
+
+html h1 { font-size: 2rem; } /*2x20 = 40 */
+
+h1 > .principal { font-size: 1.4em; } /*1.4x40 = 56*/
+
+html .secundario { font-size: 1.4rem; } /*1.4x20 = 28 */
+
+.cor {
+    background-color: rgb(219, 78, 68)
+}
+
+.corclara {
+    background: rgb(252, 90, 78)
+}
+
+.corescura {
+    background: rgb(186, 66, 58)
+}
