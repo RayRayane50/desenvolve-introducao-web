@@ -1,0 +1,9 @@
+/* Paleta de cores 
+ uma cor de fundo rgb (195, 193, 224)
+ uma cor para fonte rgb (16, 10, 102)
+ uma cor de destaque rgb (56, 226, 245) */
+ 
+ html {
+    background: rgb(195, 193, 224);
+    color: rgb(16, 10, 102);
+}
