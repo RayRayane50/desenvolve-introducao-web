@@ -1,0 +1,31 @@
+/* Paleta de cores 
+ uma cor de fundo rgb (195, 193, 224)
+ uma cor para fonte rgb (16, 10, 102)
+ uma cor de destaque rgb (56, 226, 245) */
+ 
+ html {
+    background: rgb(195, 193, 224);
+    color: rgb(16, 10, 102);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    text-indent: 1em;
+}
+h1, h2, h3 { 
+    text-align: center;
+}
+h1 {
+    font-size: 1.8rem;
+}
+h2 {
+    font-size: 1.4rem;
+}
+h3 {font-size: 1.2rem;}
+
+.summary { text-align: right;}
+.main p { line-height: 1.5;}
+
+abbr {
+    font-variant: small-caps;
+}
