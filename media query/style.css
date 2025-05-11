@@ -1,0 +1,198 @@
+/* Paleta de cores 
+ uma cor de fundo rgb (195, 193, 224)
+ uma cor para fonte rgb (16, 10, 102)
+ uma cor de destaque rgb (56, 226, 245) */
+ .page-wrapper {
+    width: 80%;
+    max-width: 1280px;
+    margin: auto;
+    position: relative;
+ }
+ .explanation {
+    width: 60%;
+    border-right: solid 1px #1f295c;
+    padding-right: 2%;
+ }
+ .design-selection {
+    position: absolute;
+    top: 520px;
+    left: 62%;
+    padding-left: 2%;
+    line-height: 0.8em;
+   
+ }
+
+ .intro {
+    height: 550px;
+ }
+
+ #design-archives {
+    display: none;
+ }
+
+ html {
+    background: rgb(195, 193, 224);
+    color: rgb(16, 10, 102);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#zen-intro header {
+    background-color: rgb(16, 10, 102);
+    color:  rgb(195, 193, 224);
+}
+
+#zen-intro header h1, #zen-intro header h2 {
+    display: inline-block;
+}
+
+#zen-intro header h1 {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+
+p {
+    text-indent: 1em;
+}
+h1, h2, h3 { 
+    text-align: center;
+}
+h1 {
+    font-size: 1.8rem;
+}
+h2 {
+    font-size: 1.4rem;
+}
+h3 {font-size: 1.2rem;}
+
+.summary { text-align: right;}
+.main p { line-height: 1.5;}
+
+abbr {
+    font-variant: small-caps;
+}
+
+aside ul {
+    list-style-type: none;
+}
+aside ul li {
+    margin: 1.5em;
+    text-align: center;
+}
+
+ footer {
+    margin: 4%;
+ }
+
+footer a { 
+    border: solid 2px rgb(16, 10, 102);
+    padding: 0.5em;
+    display: inline-block;
+ }
+ .supporting footer {
+    display: flex;
+    justify-content: space-around;
+ }
+
+ .benefits {
+    display: flex;
+    border-top: solid 1px rgb(16, 10, 102);
+    border-bottom:  solid 1px rgb(16, 10, 102);
+ }
+
+ .benefits h3 {
+    order: 2;
+    align-self: center;
+    flex-basis: 30%;
+ }
+
+ .benefits p {
+    flex-basis: 70%;
+ }
+
+ .participation {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: solid 1px rgb(16, 10, 102);
+ }
+
+ .participation h3, .participation p {
+    flex-basis: 50%;
+ }
+ 
+ .participation h3 {
+    align-self: center;
+ }
+
+ a {
+   color: rgb(56, 226, 245);
+ }
+ a:hover {
+   color: rgba(5, 109, 120, 0.649);
+ }
+
+ .main p:first-of-type::first-letter {
+   font-size: 3em;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   float:left 
+
+ } 
+ .design-selection li {
+   border-top: rgb(16, 10, 102) solid 1px;
+   padding-top: 1px;
+ }
+
+ .design-selection li:last-of-type {
+   border-bottom:rgb(16, 10, 102) solid 1px;
+ }
+
+ @media screen and (max-width: 768px) {
+  
+   .design-selection {
+     position: static;
+     width: 100%;
+   }
+ 
+   .explanation {
+     border-right: none;
+     width: 100%;
+   }
+ 
+   #zen-intro {
+     height: auto;
+   }
+   .participation {
+      flex-direction: column;
+    }
+    
+    p {
+      text-indent: 0;
+    }
+ }
+
+ @media print {
+  
+   html {
+     font-family: 'Times New Roman', Times, serif;
+   }
+ 
+   #zen-intro header {
+     background-color: rgb(195, 193, 224);
+     color: rgb(16, 10, 102);
+   }
+   .design-selection {
+      position: static;
+      width: 100%;
+    }
+  
+    .explanation {
+      border-right: none;
+      width: 100%;
+    }
+    #zen-intro {
+      height: auto;
+    }
+  
+
+ }
